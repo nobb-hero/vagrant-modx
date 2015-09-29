@@ -3,12 +3,12 @@ sudo apt-get install -y unzip
 
 # modx
 echo "Getting MODx..."
-rm -rf modx*
-wget -q -O modx.zip https://modx.s3.amazonaws.com/releases/2.3.3/modx-2.3.3-pl.zip
+rm -rf evo*
+wget -q -O modx.zip http://modx.jp/files/evo/modx-1.0.14J-r9.zip
 
 # unzip and put to place
 unzip -q modx.zip
-cd modx*
+cd evo*
 cp -r * /var/www/public
 cd ~
 
